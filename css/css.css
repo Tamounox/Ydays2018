@@ -44,6 +44,7 @@ body, html {
 
 /* Second image (Portfolio) */
 .bgimg-4 {
-    background-image: url("../images/capens.jpg");
+    background-image: url("../images/portfolio.png");
     min-height: 400px;
+    background-attachment:fixed;
 }
