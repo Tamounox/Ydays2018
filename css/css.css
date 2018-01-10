@@ -44,7 +44,17 @@ body, html {
 
 /* Second image (Portfolio) */
 .bgimg-4 {
-    background-image: url("../images/portfolio.png");
+    background-image: url("../images/portfolio_cut.png");
+    background-size: 100%;
+    min-height: 100%;
+    
+}
+.bgimg-5 {
+    background-color: grey;
     min-height: 400px;
-    background-attachment:fixed;
+}
+.stickychan {
+    position: fixed;
+    top: 0px;
+    z-index:99;
 }
